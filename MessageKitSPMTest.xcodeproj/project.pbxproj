@@ -21,7 +21,6 @@
 		1C4D30AA2459FB0D000EB423 /* MessageContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30A22459FB0D000EB423 /* MessageContainerController.swift */; };
 		1C4D30AB2459FB0D000EB423 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30A32459FB0D000EB423 /* NavigationController.swift */; };
 		1C4D30AC2459FB0D000EB423 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30A42459FB0D000EB423 /* SettingsViewController.swift */; };
-		1C4D30AE2459FB1D000EB423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30AD2459FB1C000EB423 /* AppDelegate.swift */; };
 		1C4D30B22459FB2C000EB423 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30B02459FB2C000EB423 /* Lorem.swift */; };
 		1C4D30B32459FB2C000EB423 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30B12459FB2C000EB423 /* SampleData.swift */; };
 		1C4D30B62459FB34000EB423 /* CustomMessageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30B52459FB34000EB423 /* CustomMessageFlowLayout.swift */; };
@@ -34,6 +33,7 @@
 		1C4D30C72459FB4A000EB423 /* Settings+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30C62459FB4A000EB423 /* Settings+UserDefaults.swift */; };
 		1C4D30CA2459FBBA000EB423 /* BasicAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30C92459FBBA000EB423 /* BasicAudioController.swift */; };
 		1C4D30CC2459FCAF000EB423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D30CB2459FCAF000EB423 /* Assets.xcassets */; };
+		1C4D30CE245A073E000EB423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D30CD245A073E000EB423 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,6 @@
 		1C4D30A22459FB0D000EB423 /* MessageContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageContainerController.swift; sourceTree = "<group>"; };
 		1C4D30A32459FB0D000EB423 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		1C4D30A42459FB0D000EB423 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		1C4D30AD2459FB1C000EB423 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../MessageKit/Example/Sources/AppDelegate.swift; sourceTree = "<group>"; };
 		1C4D30B02459FB2C000EB423 /* Lorem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
 		1C4D30B12459FB2C000EB423 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		1C4D30B52459FB34000EB423 /* CustomMessageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageFlowLayout.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		1C4D30C62459FB4A000EB423 /* Settings+UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Settings+UserDefaults.swift"; sourceTree = "<group>"; };
 		1C4D30C92459FBBA000EB423 /* BasicAudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAudioController.swift; sourceTree = "<group>"; };
 		1C4D30CB2459FCAF000EB423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C4D30CD245A073E000EB423 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,7 @@
 		1C4D307D2459FA4F000EB423 /* MessageKitSPMTest */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D30CD245A073E000EB423 /* AppDelegate.swift */,
 				1C4D30C82459FBBA000EB423 /* AudioController */,
 				1C4D30C62459FB4A000EB423 /* Settings+UserDefaults.swift */,
 				1C4D30C12459FB43000EB423 /* Extensions */,
@@ -105,7 +106,6 @@
 				1C4D30B72459FB39000EB423 /* Views */,
 				1C4D30B42459FB34000EB423 /* Layout */,
 				1C4D30AF2459FB2C000EB423 /* Data Generation */,
-				1C4D30AD2459FB1C000EB423 /* AppDelegate.swift */,
 				1C4D309C2459FB0D000EB423 /* View Controllers */,
 				1C4D30952459FB04000EB423 /* Models */,
 				1C4D30892459FA51000EB423 /* LaunchScreen.storyboard */,
@@ -282,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4D309A2459FB04000EB423 /* MockUser.swift in Sources */,
-				1C4D30AE2459FB1D000EB423 /* AppDelegate.swift in Sources */,
 				1C4D30A52459FB0D000EB423 /* ChatViewController.swift in Sources */,
 				1C4D30B22459FB2C000EB423 /* Lorem.swift in Sources */,
 				1C4D30A82459FB0D000EB423 /* BasicExampleViewController.swift in Sources */,
@@ -300,6 +299,7 @@
 				1C4D309B2459FB04000EB423 /* MockSocket.swift in Sources */,
 				1C4D30A92459FB0D000EB423 /* LaunchViewController.swift in Sources */,
 				1C4D30C52459FB43000EB423 /* UIColor+Extensions.swift in Sources */,
+				1C4D30CE245A073E000EB423 /* AppDelegate.swift in Sources */,
 				1C4D30992459FB04000EB423 /* MockMessage.swift in Sources */,
 				1C4D30A62459FB0D000EB423 /* AutocompleteExampleViewController.swift in Sources */,
 			);
